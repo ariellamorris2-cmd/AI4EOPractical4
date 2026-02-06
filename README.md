@@ -24,8 +24,8 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#usage">Usage & Results</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#Prerequisites">Prerequisites</a></li>
+    <li><a href="#Altimetry Classification">Altimetry Classification</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
