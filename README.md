@@ -51,8 +51,42 @@ By analysing features like **Peakiness (PP)**, **Stack Standard Deviation (SSD)*
 
 ## Getting Started
 
-To run the notebooks in this repository:
+This project utilises Google Colaboratory (GoogleColab), which is a cloud-based platform for writing, running and sharing Python code. It provides free access to powerful TPU and GPU resources through your browser. Your personal Google Drive can easily integrate with Colab, making it very simple to store and share your work. Colab is extremely useful for data science, machine learning, and education. To access the notebook, simply click on the Google Colab link in the ipynb file included in this repository. 
+
+The Week 4 assignment for GEOL0069 Artificial Intelligence for Earth Observation is to use these unsupervised learning methods for altimetry classification and, crucially, distinguishing between leads and sea ice in Sentinel-3 datasets. 
+
 
 ### Prerequisites
-You will need a Python environment with the following libraries:
+* You will need a Python environment with the following libraries:
 ```sh
+!netCDF4: For handling multidimensional data files.
+```
+```sh
+!NumPy: For array manipulation and masked arrays.
+```
+```sh
+!Matplotlib: For data visualisation and spatial plotting.
+```
+```sh
+!SciPy: For spatial indexing (KDTree) and interpolation.
+```
+```sh
+!Scikit-Learn: For clustering algorithms (KMeans, DBSCAN) and data scaling.
+```
+
+* Mounting Google Drive on Google Colab 
+  ```sh
+  from google.colab import drive
+  drive.mount('/content/drive')
+  ```
+
+
+
+## Altimetry Classification 
+
+This is the process of identifying what kind of surface a satellite radar pulse has hit based on the "shape" of the returned signal (the waveform). When a satellite like Sentinel-3 or CryoSat-2 sends a radar pulse to Earth, the way that pulse bounces back tells us if it hit open water, lead, sea ice, or an ice sheet. We are processing net CDF files, and we are trying to distinguish between sea ice and leads. 
+
+
+
+
+
