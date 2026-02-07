@@ -83,7 +83,7 @@ After clustering the Sentinel-3 waveforms using GMM, we generated the average ec
 * **Leads:** Characterised by very high peakiness and specular returns.
 * **Sea Ice:** Characterised by more diffuse, wider waveforms.
 
-<img width="572" height="435" alt="image" src="https://github.com/user-attachments/assets/e60fffb5-19a2-4196-9507-e54ee5d54d10" />
+![Average Echo Shapes](images/Mean_Echo_Shapes.png)
 
 > **Insight:** The shaded areas in the plot represent the standard deviation of the waveforms, illustrating the variability within each surface class.
 
