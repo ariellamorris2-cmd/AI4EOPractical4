@@ -9,7 +9,7 @@
   <p align="center">
     Unsupervised Machine Learning for discriminating sea ice and leads using Sentinel-2 optical imagery and Sentinel-3 altimetry data.
     <br />
-    <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Yariellamorris2-cmd/AI4EOPractical4.2"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
@@ -99,7 +99,13 @@ Below is a confusion matrix comparing the ESA official classification (flags) ag
 > **Insight:** The Gaussian Mixture Model (GMM) performed exceptionally well, distinguishing leads from sea ice with 99.62% accuracy. Most discrepancies were negligible, with only 22 instances of sea ice misclassified as leads and 24 instances of leads misclassified as sea ice. This high level of agreement with the ESA official classification validates the use of Peakiness, Sigma_0, and SSD as robust features for unsupervised altimetry classification.
 
 
+### Acknowledgements
 
+**European Space Agency (ESA):** For providing the Sentinel-2 optical imagery and Sentinel-3 SRAL altimetry datasets.
 
+**Alfred Wegener Institute (AWI):** For the methodologies regarding physical waveform alignment.
 
+**GEOL0069 Module Team:** For providing the framework for AI applications in Earth Observation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
