@@ -2,9 +2,9 @@
 
 <br />
 <div align="center">
-  <h3 align="centre">GEOL0069 AI for Earth Observation: Week 4 </h3>
+  <h1 align="centre">GEOL0069 AI for Earth Observation: Week 4 </h3>
 <div align="center">
-  <h3 align="center"><b>Altimetry Classification: Sea Ice vs. Leads</b></h3>
+  <h2 align="center"><b>Altimetry Classification: Sea Ice vs. Leads</b></h3>
 
   <p align="center">
     Unsupervised Machine Learning for discriminating sea ice and leads using Sentinel-2 optical imagery and Sentinel-3 altimetry data.
@@ -97,6 +97,16 @@ Below is a confusion matrix comparing the ESA official classification (flags) ag
 
 > **Insight:** The Gaussian Mixture Model (GMM) performed exceptionally well, distinguishing leads from sea ice with 99.62% accuracy. Most discrepancies were negligible, with only 22 instances of sea ice misclassified as leads and 24 instances of leads misclassified as sea ice. This high level of agreement with the ESA official classification validates the use of Peakiness, Sigma_0, and SSD as robust features for unsupervised altimetry classification.
 
+## Conclusion
+The implementation of the **Gaussian Mixture Model (GMM)** proved highly effective for the discrimination of sea ice and leads using Sentinel-3 altimetry data. By utilizing a feature space consisting of **Peakiness**, **Sigma_0**, and **Stack Standard Deviation (SSD)**, the model achieved a validation accuracy of **99.62%** when compared against official ESA surface type classifications.
+
+### Key Findings:
+
+* **Waveform Physics:** The high accuracy confirms that the selected features are robust proxies for surface roughness. Leads produce a distinct specular signature with low variability, whereas sea ice produces diffuse returns with a higher standard deviation across the waveform.
+* **Model Suitability:** GMM’s ability to model cluster covariance provided a superior fit for the correlated nature of radar backscatter features compared to simpler methods like K-Means.
+* **Alignment Impact:** The physical alignment of waveforms (AWI-style) significantly reduced the standard deviation in peak positions (from **10.77 to 8.19 bins**), leading to much cleaner average echo shapes and more reliable cluster centroids.
+
+This project demonstrates that unsupervised machine learning can effectively automate the classification of large-scale satellite datasets, providing a reliable alternative to manual labelling for polar region monitoring.
 
 ### Acknowledgements
 
