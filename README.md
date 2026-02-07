@@ -36,9 +36,9 @@ This project explores the application of **Unsupervised Learning** to categorise
 1. **Unit 1:** Structural setup and initial data exploration.
 2. **Unit 2:** Implementation of K-Means and Gaussian Mixture Models (GMM) to classify Sentinel-3 altimetry echoes.
 
-The Week 4 assignment for this module is to use these unsupervised learning methods for altimetry classification and, crucially, distinguishing between leads and sea ice in Sentinel-3 datasets. 
+The Week 4 assignment for this module is to use these unsupervised learning methods for altimetry classification and, crucially, distinguishing between leads and sea ice in Sentinel-3 datasets. We will be focusing on Unit 2. This notebook has been annotated for your guidance. 
 
-By analysing features like **Peakiness (PP)**, **Stack Standard Deviation (SSD)**, and **Sigma_0**, we can effectively cluster radar waveforms without prior labelling, then validate these clusters against official ESA classifications.
+By analysing features such as **Peakiness (PP)**, **Stack Standard Deviation (SSD)**, and **Sigma_0**, we can effectively cluster radar waveforms without prior labelling, and then validate these clusters against official ESA classifications.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
